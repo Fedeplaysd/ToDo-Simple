@@ -1,0 +1,66 @@
+body {
+  background-color: #1c1e21;
+  color: #ccc;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #b0c4de;
+}
+
+.card {
+  border: 1px solid #2c2f33;
+}
+
+.card-body {
+  background: #2c2f33;
+  color: #ccc;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #4682b4;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4169e1;
+}
+
+.task-card {
+  background: #2c2f33;
+  padding: 20px;
+  border: 1px solid #4682b4; /* Borde similar al botón */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #ccc;
+  position: relative; /* Necesario para el posicionamiento del botón */
+}
+
+.task-card h3 {
+  color: #b0c4de;
+  margin: 0;
+}
+
+.task-card p {
+  color: #ccc;
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.delete-task-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-task-button:hover {
+  background-color: #c82333;
+}
+
